@@ -225,7 +225,7 @@
 
     // تحديث الصفحة والتقدم
     function updatePage() {
-      img.src = `images/${currentPage}.png`;
+      img.src = `/${currentPage}.png`;
       pageNum.textContent = `الصفحة ${currentPage}`;
       pageIndicator.textContent = `${currentPage} / ${totalPages}`;
       progressBar.style.width = `${(currentPage / totalPages) * 100}%`;
